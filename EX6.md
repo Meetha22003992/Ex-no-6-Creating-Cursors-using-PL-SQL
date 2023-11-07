@@ -11,6 +11,7 @@
 4. Close the cursor
 
 ### Program:
+
 ### Create employee table
 
 CREATE TABLE employee (empid INT,empname VARCHAR(10),dept VARCHAR(10),salary DECIMAL(10, 2));

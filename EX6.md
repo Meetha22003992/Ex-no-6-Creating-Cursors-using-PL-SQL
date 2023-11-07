@@ -1,5 +1,7 @@
 # Ex. No: 5 Creating Cursors using PL/SQL
 
+## DATE: 8.09.2023
+
 ### AIM: To create a cursor using PL/SQL.
 
 ### Steps:
@@ -10,11 +12,10 @@
 
 ### Program:
 ### Create employee table
-```
+
 CREATE TABLE employee (empid INT,empname VARCHAR(10),dept VARCHAR(10),salary DECIMAL(10, 2));
 
-INSERT INTO employee (empid, empname, dept, salary)VALUES(1, 'John', 'HR', 50000.00),(2, 'Alice', 'Finance', 60000.00),(3, 'Bob', 'IT', 55000.00);
-```
+
 ### PLSQL Cursor code
 ```
 DELIMITER //
